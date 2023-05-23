@@ -1,0 +1,27 @@
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(107, 32, 57);
+}
+h3{
+    color:brown;
+}
+.external{
+    color: palevioletred;
+    background-color: aquamarine;
+}
+.external h3{
+    color: blue;
+}
+#change{
+    color: rgb(99, 99, 252);
+}
+.position{
+    margin-left: 50px;
+    margin-top: 10%;
+    border: 10px solid salmon;
+    border-style:dotted;
+    padding-left: 40px;
+    padding-right: 4px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
