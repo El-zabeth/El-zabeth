@@ -6,7 +6,7 @@ let time={
 };
 var ampmf=`${time.hour}:${time.min}:${time.sec} ${time.ampm}`;
 console.log("The time in AM/PM format is "+ampmf);
-if (time.ampm=="PM")
+if (time.ampm=="PM" && time.hour<12)
 {
      time.hour+=12;
 }
